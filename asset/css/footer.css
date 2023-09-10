@@ -1,0 +1,113 @@
+.swn_footer {
+	background-color: #0b2035;
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 78px 0px 78px 0px;
+    width: 100%;
+    float: left;
+}
+.inner_footer {
+	display: flex;
+}
+.colm_ftr {
+	width: 25%;
+	padding: 0px 20px; 
+}
+.widget-ftr {
+	padding: 0px 0px 0px 15px;
+    border-style: solid;
+    border-width: 0px 0px 0px 3px;
+    border-color: #ff7f50;
+    margin-bottom: 20px;
+}
+.widget-ftr h3 {
+    color: #ffffff;
+    font-family: "Lato", Sans-serif;
+    font-size: 1.4em;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+.cont_widget p{
+	color: #ffffff;
+    font-family: "Lato", Sans-serif;
+    font-size: 0.87em;
+    line-height: 1.6em;
+}
+.cont_widget ul{
+	margin: 0px;
+}
+.cont_widget ul li {
+	list-style: none;
+	padding: 5px 0px;
+}
+.cont_widget ul li i{
+	    color: #ffffff;
+    transition: color 0.3s;
+    padding-right: 10px;
+}
+ .cont_widget ul li a{
+	color: #ffffff;
+    text-decoration: none;
+    font-family: lato;
+}
+.social_ftr ul li {
+	padding: 5px 10px;
+}
+.social_ftr ul li{
+	display: inline-block;
+}
+.social_ftr li i {
+    font-size: 25px;
+}
+/* Copyright */
+.copyright {
+    padding: 15px 0px;
+    background-color: #0a1b2c;
+    width: 100%;
+    float: left;
+}
+.copyright p {
+    color: #fff;
+    font-size: 16px;
+    font-family: lato;
+    text-align: center;
+}
+/* Responsive */
+@media screen and (max-width:880px) {
+    .widget-ftr h3 {
+        font-size: 1em;
+    }
+    .swn_footer {
+        padding: 50px 20px;
+    }
+    .colm_ftr {
+        width: 25%;
+        padding: 0px 6px;
+    }
+    .social_ftr li i {
+        font-size: 18px;
+    }
+    .social_ftr ul li {
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .inner_footer {
+        display: block;
+    }
+   .colm_ftr {
+        width: 50%;
+        padding: 0px 6px;
+        float: left;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .colm_ftr {
+        width: 100%;
+    }
+    .swn_footer {
+        padding: 40px 0px 30px 20px;
+    }
+}
